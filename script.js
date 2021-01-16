@@ -2,11 +2,3 @@
     to your site with Javascript */
 
 console.log("Hello, this my code, but you can learn here: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-
-server {
-    ...
-
-    location = /arc-sw.js {
-        proxy_pass https://arc.io;
-    }
-}
